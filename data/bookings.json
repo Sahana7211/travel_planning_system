@@ -1,0 +1,30 @@
+[
+  {
+    "id": "b_mvtp6if5dne4",
+    "userId": "u_mvtkv1jrwkl0q",
+    "itemId": "stay-04",
+    "itemName": "Pink City Haveli",
+    "type": "stay",
+    "city": "Jaipur",
+    "date": "2027-01-15",
+    "quantity": 3,
+    "unitPrice": 3900,
+    "total": 11700,
+    "status": "Planning request",
+    "createdAt": "2026-10-29T15:27:55.841Z"
+  },
+  {
+    "id": "b_mvtp8i7rettw",
+    "userId": "u_mvtkv1jrwkl0q",
+    "itemId": "activity-02",
+    "itemName": "Old City Heritage Trail",
+    "type": "activity",
+    "city": "Jaipur",
+    "date": "2027-01-15",
+    "quantity": 3,
+    "unitPrice": 700,
+    "total": 2100,
+    "status": "Planning request",
+    "createdAt": "2026-10-29T15:29:28.887Z"
+  }
+]

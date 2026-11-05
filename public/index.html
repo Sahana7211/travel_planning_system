@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef"><title>Travel | Sign in or create account</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    body.auth-page{min-height:100vh;background:#f7f5ef}.auth-layout{min-height:100vh;display:grid;grid-template-columns:1.05fr .95fr}.auth-art{position:relative;min-height:100vh;padding:42px 7%;display:flex;flex-direction:column;justify-content:space-between;color:#fff;background:linear-gradient(180deg,rgba(13,34,25,.18),rgba(13,34,25,.76)),url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1500&q=85') center/cover}.auth-brand{display:flex;align-items:center;gap:11px;font:800 21px var(--display);color:#fff}.auth-brand .brand-mark{background:#d9f05b;color:#202b27}.auth-art-copy{max-width:580px;padding:40px 0}.auth-kicker{font-size:10px;letter-spacing:2.4px;font-weight:700;color:#d9f05b}.auth-art h1{font:600 clamp(42px,5.6vw,78px)/1.02 var(--display);letter-spacing:-4px;margin:22px 0}.auth-art h1 em{font-family:Georgia,serif;font-weight:400;color:#d9f05b}.auth-art-copy p{max-width:430px;font-size:14px;line-height:1.9;color:#f0f1e9}.auth-art-bottom{font-size:9px;letter-spacing:1.7px;color:#ffffffb8}.auth-form-side{display:flex;align-items:center;justify-content:center;padding:38px 7%;}.auth-box{width:min(100%,430px)}.auth-box .eyebrow{margin-bottom:15px}.auth-box h2{font:700 clamp(30px,3vw,40px)/1.15 var(--display);letter-spacing:-1.8px;margin:0 0 10px}.auth-box h2 em{font-family:Georgia,serif;font-weight:400;color:#879b4d}.auth-subtitle{font-size:13px;color:#7e8980;line-height:1.7;margin-bottom:26px}.auth-mode-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:#eceee5;padding:5px;border-radius:7px;margin-bottom:22px}.auth-mode-tabs button{border:0;border-radius:5px;background:transparent;padding:13px 8px;color:#737d70;cursor:pointer;font-weight:700;font-size:12px}.auth-mode-tabs button.active{background:#fffefa;color:#202b27;box-shadow:0 2px 9px #2635250d}.auth-box label{display:block;font-size:10px;font-weight:700;letter-spacing:1.1px;margin:16px 0 8px}.auth-box input{width:100%;padding:15px;border:1px solid #e0e2d8;background:#fffefa;border-radius:5px;outline:none;color:#202b27}.auth-box input:focus{border-color:#879b4d;box-shadow:0 0 0 3px #879b4d20}.auth-box .button{margin-top:22px;min-height:49px;font-size:12px}.auth-error{min-height:18px;color:#b14f41;font-size:12px;margin:12px 0 0}.auth-foot{font-size:10px;color:#969d91;line-height:1.7;margin-top:22px}.auth-trust{display:flex;gap:10px;align-items:center;color:#7e8980;font-size:10px;margin-top:24px}.auth-trust span{display:grid;place-items:center;background:#e8edda;border-radius:50%;width:29px;height:29px;color:#64763d;font-size:14px}@media(max-width:760px){.auth-layout{grid-template-columns:1fr}.auth-art{min-height:300px;padding:24px 7%}.auth-art-copy{padding:38px 0 20px}.auth-art h1{font-size:45px;letter-spacing:-2px;margin:14px 0}.auth-art-copy p{font-size:12px}.auth-art-bottom{display:none}.auth-form-side{padding:38px 7% 50px}.auth-box{max-width:470px}}
+  </style>
+</head>
+<body class="auth-page">
+  <main class="auth-layout">
+    <section class="auth-art" aria-label="Travel inspiration">
+      <a class="auth-brand" href="/"><span class="brand-mark">T.</span><span>Travel</span></a>
+      <div class="auth-art-copy"><span class="auth-kicker">YOUR NEXT CHAPTER STARTS HERE</span><h1>The world is wide.<br>Make it <em>yours.</em></h1><p>Bring your destinations, stays, experiences and travel plans together in one thoughtful travel journal.</p></div>
+      <div class="auth-art-bottom">DREAM IT &nbsp;·&nbsp; PLAN IT &nbsp;·&nbsp; TRAVEL</div>
+    </section>
+    <section class="auth-form-side">
+      <div class="auth-box">
+        <span class="eyebrow muted"><span class="pulse-dot"></span> YOUR PERSONAL TRAVEL STUDIO</span>
+        <h2 id="form-title">Welcome <em>back.</em></h2><p class="auth-subtitle" id="form-subtitle">Sign in to continue planning your next adventure.</p>
+        <div class="auth-mode-tabs" role="tablist"><button type="button" class="active" data-mode="login">Login</button><button type="button" data-mode="register">Create account</button></div>
+        <form id="auth-form" novalidate>
+          <div id="name-field" hidden><label for="name">FULL NAME</label><input id="name" name="name" autocomplete="name" placeholder="Your full name"></div>
+          <label for="email">EMAIL ADDRESS</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          <label for="password">PASSWORD</label><input id="password" name="password" type="password" minlength="8" autocomplete="current-password" placeholder="At least 8 characters" required>
+          <p id="auth-error" class="auth-error" role="alert"></p>
+          <button id="submit-button" class="button button-dark button-wide" type="submit">Login <span>↗</span></button>
+        </form>
+        <p class="auth-foot">By continuing, you’ll be able to save your own journeys and planning requests. Your account is personal to you.</p>
+        <div class="auth-trust"><span>✦</span><div><strong>One account. Your travel journal.</strong><br>Trips, ideas and saved plans in one place.</div></div>
+      </div>
+    </section>
+  </main>
+  <script src="/auth.js"></script>
+</body></html>

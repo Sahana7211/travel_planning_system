@@ -1,0 +1,47 @@
+[
+  {
+    "id": "t_mvs6iajck3s3",
+    "userId": "u_mvs646lv8r23v",
+    "title": "winter trip",
+    "destination": "Ladakh, India",
+    "startDate": "2026-10-30",
+    "endDate": "2026-11-07",
+    "travelers": 1,
+    "budget": 25000,
+    "style": "Nature",
+    "notes": "Food, Relax, Nature",
+    "itinerary": [],
+    "createdAt": "2026-10-28T13:57:26.616Z",
+    "updatedAt": "2026-10-28T13:57:26.616Z"
+  },
+  {
+    "id": "t_mvtp5pw54fi1",
+    "userId": "u_mvtkv1jrwkl0q",
+    "title": "summer",
+    "destination": "Jaipur, India",
+    "startDate": "2026-10-30",
+    "endDate": "2026-11-07",
+    "travelers": 3,
+    "budget": 60000,
+    "style": "Culture",
+    "notes": "",
+    "itinerary": [],
+    "createdAt": "2026-10-29T15:27:18.869Z",
+    "updatedAt": "2026-10-29T15:27:18.869Z"
+  },
+  {
+    "id": "t_mvum3wy2ygao",
+    "userId": "u_mvtkv1jrwkl0q",
+    "title": "summer",
+    "destination": "Kyoto, Japan",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-07",
+    "travelers": 2,
+    "budget": 49960,
+    "style": "Culture",
+    "notes": "",
+    "itinerary": [],
+    "createdAt": "2026-10-30T06:49:42.027Z",
+    "updatedAt": "2026-10-30T06:49:42.027Z"
+  }
+]
